@@ -1,0 +1,11 @@
+{
+    "module_name": "my_custom_module",
+    "version": "1.0.0",
+    "summary": "A custom module for Odoo 18",
+    "description": "This module adds custom features to Odoo 18.",
+    "author": "Wahab Safi",
+    "license": "LGPL-3",
+    "website": "https://example.com",
+    "category": "Tools",
+    "dependencies": ["base"]
+}
