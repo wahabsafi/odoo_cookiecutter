@@ -1,13 +1,13 @@
 {
-    'name': '{{ module_name }}',
-    'version': '{{ version }}',
-    'summary': '{{ summary }}',
-    'description': '{{ description }}',
-    'author': '{{ author }}',
-    "license": "{{ license }}",
-    'website': '{{ website }}',
-    'category': '{{ category }}',
-    'depends': {{ dependencies }},
+    'name': '{{ cookiecutter.module_name  }}',
+    'version': '{{ cookiecutter.version }}',
+    'summary': '{{ cookiecutter.summary }}',
+    'description': '{{ cookiecutter.description }}',
+    'author': '{{ cookiecutter.author }}',
+    "license": "{{ cookiecutter.license }}",
+    'website': '{{ cookiecutter.website }}',
+    'category': '{{cookiecutter.category }}',
+    'depends': {{ cookiecutter.dependencies }},
     'data': [
         # Add XML/CSV files here if needed
     ],
