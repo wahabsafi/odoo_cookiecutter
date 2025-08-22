@@ -7,7 +7,7 @@
     "license": "{{ cookiecutter.license }}",
     'website': '{{ cookiecutter.website }}',
     'category': '{{cookiecutter.category }}',
-    'depends': {{ cookiecutter.dependencies }},
+    'depends': ["{{ cookiecutter.dependencies }}"],
     'data': [
         # Add XML/CSV files here if needed
     ],
